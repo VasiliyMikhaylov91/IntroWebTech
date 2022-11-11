@@ -1,12 +1,20 @@
 <?php
 	$expirience = [
-    ["profession" => "Frontend MegaMaster", "date" => "Jan 2015 - Current", 
-    	"Discription" => "Ploloplolo rtulolo lala lolo"],
-    ["profession" => "Web master", "date" => "Mar 2012 - Dec 2014", 
-    	"Discription" => "Alalaley and LO la LOOOOO!!!"],
-    ["profession" => "Graphic Super Designer", "date" => "Jun 2010 - Mar 2012", 
-    	"Discription" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit."],
-    ]
+    [
+      "profession" => "Frontend MegaMaster", 
+      "date" => "Jan 2015 - Current", 
+      "description" => "Ploloplolo rtulolo lala lolo"
+    ],
+    [
+      "profession" => "Web master", 
+      "date" => "Mar 2012 - Dec 2014", 
+      "description" => "Alalaley and LO la LOOOOO!!!"],
+    [
+      "profession" => "Graphic Super Designer", 
+      "date" => "Jun 2010 - Mar 2012", 
+      "description" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    ],
+  ]
 ?>
 
 <!DOCTYPE html>
@@ -99,7 +107,7 @@
         	<div class="w3-container">
           		<h5 class="w3-opacity"><b> <?php echo $exp["profession"] ?></b></h5>
           		<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i><?php echo $exp["date"] ?></h6>
-          		<p><?php echo $exp["Discription"] ?></p>
+          		<p><?php echo $exp["description"] ?></p>
           		<hr>
        		</div>
         <?php } ?>
